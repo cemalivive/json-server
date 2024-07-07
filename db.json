@@ -1,124 +1,810 @@
 {
-    "product": [
+  "stages": [
+    {
+      "id": 1,
+      "form_id": 1,
+      "name": "welcome page",
+      "title": "Tam da ihtiyacına göre sigorta için buRAYa!",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-06-13T08:56:12.671Z",
+      "updated_at": "2024-07-04T07:59:44.535Z",
+      "stage_components": [
         {
-            "img": "https://www.claroshop.com/c/star-wars-day/img/categorias/TAZAS_CATEGORIAS_STAR_WARS.png",
-            "name": "Trooper taza",
-            "price": "$60.00",
-            "Description": "Taza casco Trooper",
-            "category": "starwars",
-            "id": 1
-        },
-        {
-            "img": "https://cdn1.coppel.com/images/catalog/mkp/1773/5000/17733590-1.jpg",
-            "name": "Funko Vader",
-            "price": "$60.00",
-            "Description": "Funko coleccionable Darth vader",
-            "category": "starwars",
-            "id": 2
-        },
-        {
-            "img": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12N6pr.img?w=500&h=500&m=6",
-            "name": "Grogu (Baby Yoda)",
-            "price": "$100.00",
-            "Description": "Grogu peluche electrónico",
-            "category": "starwars",
-            "id": 3
-        },
-        {
-            "img": "https://cdn.shopify.com/s/files/1/0563/9831/5692/files/luke-skywalker-lightsaber-hilt.png?v=1656863305",
-            "name": "Lightsaber",
-            "price": "$3000.00",
-            "Description": "Sable de luz para duelos",
-            "category": "starwars",
-            "id": 4
-        },
-        {
-            "img": "https://tooys.mx/media/wysiwyg/Darth_Vader-estatua-premium-format-por-sideshow-19.png",
-            "name": "Darth Vader",
-            "price": "$450.00",
-            "Description": "DarDarth  Vader figura de coleción",
-            "category": "starwars",
-            "id": 5
-        },
-        {
-            "img": "https://www.cibermoda.mx/assets/images/craft_images/productos/Consola-Retro-Portatil-X12-Plus-pantalla-7-pulgadas-color-rojo-azul-joystick.webp",
-            "name": "X12 Plus",
-            "price": "$4500.00",
-            "Description": "consola portatil, 16 Gb de RAM",
-            "category": "consolas",
-            "id": 1
-        },
-        {
-            "img": "https://revistasociosams.com/wp-content/uploads/2021/03/control-inalambrico-Xbox%E2%80%8B-1.png",
-            "name": "Control Xbox One",
-            "price": "$950.00",
-            "Description": "Control Xbox serie One",
-            "category": "consolas",
-            "id": 2
-        },
-        {
-            "img": "https://www.incentivosblackhawk.com.mx/wp-content/uploads/2022/05/Steam.png",
-            "name": "Steam Card",
-            "price": "$200.00",
-            "Description": "steam card 200 pelucholares",
-            "category": "consolas",
-            "id": 3
-        },
-        {
-            "img": "https://www.techpowerup.com/review/scuf-impact-controller-ps4-pc/images/small.png",
-            "name": "Control usb",
-            "price": "$500.00",
-            "Description": "Control de china",
-            "category": "consolas",
-            "id": 4
-        },
-        {
-            "img": "https://virtumaniacos.com/wp-content/uploads/2022/03/playstation-vr-visor.webp",
-            "name": "Oculus Quest 2 ",
-            "price": "$4500.00",
-            "Description": "Su versatilidad nos va a permitir usarlas en formato Standalone, es decir no depende de ningún otro elemento como cámaras o hardware externo, y esto las ha convertido el las gafas VR más vendidas desde 2020. Incluso puedes conectarlas a un ordenador (opcional) por cable o por wifi para jugar a juegos y usar aplicaciones aún más exigentes. ",
-            "category": "consolas",
-            "id": 5
-        },
-        {
-            "img": "https://otakutienda.com/cdn/shop/products/IMG_5186_580x.png?v=1644943571",
-            "name": "Pikachu Itachi  edition",
-            "price": "$500.00",
-            "Description": "Edición especial Pikachu Itachi  anbu",
-            "category": "diversos",
-            "id": 1
-        },
-        {
-            "img": "https://ggezstore.net/wp-content/uploads/2021/12/DEADPOOL-PIKACHU-e1640658722195.png",
-            "name": "Pikachu Deadpool",
-            "price": "$250.00",
-            "Description": "Pikachu edición deadpool",
-            "category": "diversos",
-            "id": 2
-        },
-        {
-            "img": "https://cdn.shopify.com/s/files/1/2437/4099/products/spider-man_marvel_silo_480x672.png?v=1649713239",
-            "name": "Spiderman Hot Toys",
-            "price": "$660.00",
-            "Description": "Hot Toys CosRider: Marvel Spider Man Far From Home - Spider Man — Distrito Max",
-            "category": "diversos",
-            "id": 3
-        },
-        {
-            "img": "https://www.panupli.es/3364-large_default/funko-pop-es-dla-gandalf-montado-en-gwaihir.jpg",
-            "name": "Funko Gandalf en Gwaihir",
-            "price": "$600.00",
-            "Description": "Colecciona el Funko POP de Gandalf montado en el águila Gwaihir de las increíbles películas de El Señor de los Anillos",
-            "category": "diversos",
-            "id": 4
-        },
-        {
-            "img": "https://lemongamesmx.com/cdn/shop/products/fun55641-dragon-ball-z-cell-first-form-glow-in-the-dark-pop-vinyl-figure-popcultcha-01_480x480.png?v=1661980008",
-            "name": "Cell DBZ",
-            "price": "$450.00",
-            "Description": "Cell primera forma, retroiluminado",
-            "category": "diversos",
-            "id": 5
+          "id": 1,
+          "stage_id": 1,
+          "component_type": "welcome_component",
+          "component_label": "İhtiyacınıza göre sigorta",
+          "component_text": "HEMEN KEŞFEDİN!",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 2,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-06-13T08:58:19.480Z",
+          "updated_at": "2024-07-04T06:29:42.401Z",
+          "component_order": 1,
+          "component_icon": null
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "form_id": 1,
+      "name": "picture choice",
+      "title": "Size nasıl yardımcı olabiliriz?",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-06-13T08:56:17.030Z",
+      "updated_at": "2024-07-04T08:00:48.782Z",
+      "stage_components": [
+        {
+          "id": 2,
+          "stage_id": 2,
+          "component_type": "picture_choice_component",
+          "component_label": "",
+          "component_text": "Sigorta Ürünlerimiz:",
+          "component_data": [
+            {
+              "id": 1,
+              "icon": "car",
+              "text": "Aracım"
+            },
+            {
+              "id": 2,
+              "icon": "house",
+              "text": "Evim"
+            },
+            {
+              "id": 3,
+              "icon": "shop",
+              "text": "İşyerim"
+            },
+            {
+              "id": 4,
+              "icon": "network-wired",
+              "text": "Diğer"
+            }
+          ],
+          "component_action": "next_stage",
+          "component_action_stage_id": 3,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-06-13T08:58:31.327Z",
+          "updated_at": "2024-07-04T07:47:03.707Z",
+          "component_order": 1,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "form_id": 1,
+      "name": "short text",
+      "title": "Ray Sigorta'da her ihtiyaca uygun kasko var",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-06-13T08:56:19.957Z",
+      "updated_at": "2024-07-04T08:03:32.364Z",
+      "stage_components": [
+        {
+          "id": 3,
+          "stage_id": 3,
+          "component_type": "short_text_component",
+          "component_label": "Size en uygun olan kaskoyu birlikte bulalım",
+          "component_text": "",
+          "component_data": {},
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "Adınızı Soyadınızı yazınız!",
+          "component_placeholder": "İsim Soyisim",
+          "created_at": "2024-06-13T08:58:34.584Z",
+          "updated_at": "2024-07-04T09:10:14.441Z",
+          "component_order": 1,
+          "component_icon": null
+        },
+        {
+          "id": 14,
+          "stage_id": 3,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "DEVAM",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T08:59:34.003Z",
+          "updated_at": "2024-07-04T09:17:03.209Z",
+          "component_order": 2,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "form_id": 1,
+      "name": "dropdown",
+      "title": "Size en uygun olan kaskoyu birlikte bulalım",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:10:47.264Z",
+      "updated_at": "2024-07-04T08:10:47.264Z",
+      "stage_components": [
+        {
+          "id": 11,
+          "stage_id": 4,
+          "component_type": "dropdown_component",
+          "component_label": "Arabam için en uygun kaskoyu arıyorum",
+          "component_text": "",
+          "component_data": [
+            {
+              "id": 1,
+              "key": "Size Uygun olanı Seçin",
+              "value": ""
+            },
+            {
+              "id": 1,
+              "key": "Kaskosuz Araç",
+              "value": "Kaskosuz Araç"
+            },
+            {
+              "id": 2,
+              "key": "Yeni Sıfır Araç",
+              "value": "Yeni Sıfır Araç"
+            },
+            {
+              "id": 3,
+              "key": "Kaskosu Değişecek Araç",
+              "value": "Kaskosu Değişecek Araç"
+            },
+            {
+              "id": 4,
+              "key": "Kasko Fiyat Araştırması",
+              "value": "Kasko Fiyat Araştırması"
+            },
+            {
+              "id": 5,
+              "key": "Yeni 2.El Araç",
+              "value": "Yeni 2.El Araç"
+            }
+          ],
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "Devam etmeden önce seçim yapmalısınız!",
+          "component_placeholder": "Size en uygun olanı seçin",
+          "created_at": "2024-07-04T08:15:04.894Z",
+          "updated_at": "2024-07-04T09:13:25.789Z",
+          "component_order": 1,
+          "component_icon": null
+        },
+        {
+          "id": 15,
+          "stage_id": 4,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "DEVAM",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T09:15:46.580Z",
+          "updated_at": "2024-07-04T09:15:46.580Z",
+          "component_order": 2,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "form_id": 1,
+      "name": "dropdown",
+      "title": "Kasko kapsamınız nasıl olsun?",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:28:33.635Z",
+      "updated_at": "2024-07-04T08:28:33.635Z",
+      "stage_components": [
+        {
+          "id": 12,
+          "stage_id": 5,
+          "component_type": "dropdown_component",
+          "component_label": "Kaskomu şu kapsamda arıyorum:",
+          "component_text": "",
+          "component_data": [
+            {
+              "id": 1,
+              "key": "En Kapsamlı Kasko",
+              "value": "En Kapsamlı Kasko"
+            },
+            {
+              "id": 2,
+              "key": "Bütçeme Uygun Kasko",
+              "value": "Bütçeme Uygun Kasko"
+            },
+            {
+              "id": 3,
+              "key": "Büyük Risk Kaskosu",
+              "value": "Büyük Risk Kaskosu"
+            },
+            {
+              "id": 4,
+              "key": "Pert Araç Kaskosu",
+              "value": "Pert Araç Kaskosu"
+            }
+          ],
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "Devam etmeden önce seçim yapmalısınız!",
+          "component_placeholder": "Size en uygun olanı seçin",
+          "created_at": "2024-07-04T08:43:03.604Z",
+          "updated_at": "2024-07-04T09:20:05.961Z",
+          "component_order": 1,
+          "component_icon": null
+        },
+        {
+          "id": 16,
+          "stage_id": 5,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "DEVAM",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T09:19:14.328Z",
+          "updated_at": "2024-07-04T09:19:14.328Z",
+          "component_order": 2,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "form_id": 1,
+      "name": "short text searchable",
+      "title": "Hangi şehirde yaşıyorsunuz?",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:30:25.009Z",
+      "updated_at": "2024-07-04T08:30:25.009Z",
+      "stage_components": [
+        {
+          "id": 13,
+          "stage_id": 6,
+          "component_type": "short_text_searchable",
+          "component_label": "Yaşadığınız şehir:",
+          "component_text": "",
+          "component_data": [
+            {
+              "id": 1,
+              "key": "Ankara",
+              "value": "Ankara"
+            },
+            {
+              "id": 2,
+              "key": "Adana",
+              "value": "Adana"
+            },
+            {
+              "id": 3,
+              "key": "Antalya",
+              "value": "Antalya"
+            }
+          ],
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "Bu alanı boş bırakamazsınız!",
+          "component_placeholder": "Şehir ismi yazın",
+          "created_at": "2024-07-04T08:45:36.160Z",
+          "updated_at": "2024-07-04T09:21:06.226Z",
+          "component_order": 1,
+          "component_icon": null
+        },
+        {
+          "id": 17,
+          "stage_id": 6,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "DEVAM",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T09:21:47.906Z",
+          "updated_at": "2024-07-04T09:21:47.906Z",
+          "component_order": 2,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "form_id": 1,
+      "name": "yes no",
+      "title": "Çocuğunuz var mı?",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:31:32.423Z",
+      "updated_at": "2024-07-04T08:31:32.423Z",
+      "stage_components": [
+        {
+          "id": 18,
+          "stage_id": 7,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "VAR",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T09:22:48.924Z",
+          "updated_at": "2024-07-04T09:30:53.363Z",
+          "component_order": 1,
+          "component_icon": "circle-check-solid 1"
+        },
+        {
+          "id": 19,
+          "stage_id": 7,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "YOK",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T09:22:57.923Z",
+          "updated_at": "2024-07-04T09:31:22.946Z",
+          "component_order": 2,
+          "component_icon": "circle-xmark"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "form_id": 1,
+      "name": "loading",
+      "title": "Sizin için en uygun kasko sigortasını buluyoruz, lütfen bekleyiniz.",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:33:27.481Z",
+      "updated_at": "2024-07-04T08:33:27.481Z",
+      "stage_components": [
+        {
+          "id": 20,
+          "stage_id": 8,
+          "component_type": "loading_component",
+          "component_label": "",
+          "component_text": "",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T09:34:21.286Z",
+          "updated_at": "2024-07-04T09:34:21.286Z",
+          "component_order": 1,
+          "component_icon": "spinner-scale"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "form_id": 1,
+      "name": "catalog",
+      "title": "Size en uygun kasko ürünlerini aşağıda bulabilirsiniz",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:33:48.769Z",
+      "updated_at": "2024-07-04T08:33:48.769Z",
+      "stage_components": [
+        {
+          "id": 21,
+          "stage_id": 9,
+          "component_type": "accordion_component",
+          "component_label": "",
+          "component_text": "TEKLİF ALIN",
+          "component_data": [
+            {
+              "id": 1,
+              "icon": "car",
+              "title": "Ray Kasko",
+              "condition": "Kaskosuz Araç|En Kapsamlı Kasko|Çocuk:Yok",
+              "description": "Aracınız çarpışmadan çalınmaya, anahtar çalınmasından yolda kalmaya kadar en geniş teminatlarla korunur."
+            },
+            {
+              "id": 2,
+              "icon": "family",
+              "title": "Ray Kasko",
+              "condition": "Kaskosuz Araç|En Kapsamlı Kasko|Çocuk:Var",
+              "description": "Aracınız çarpışmadan çalınmaya, anahtar çalınmasından yolda kalmaya kadar en geniş teminatlarla korunur."
+            },
+            {
+              "id": 3,
+              "icon": "home",
+              "title": "BoB Kasko",
+              "condition": "Kaskosuz Araç|En Kapsamlı Kasko|Çocuk:Var",
+              "description": "0-6 yaş arası çocuk sahiplerine özel olarak sunulan BoB Kasko, aracınızı çarpışmadan çalınmaya, anahtar çalınmasından yolda kalmaya kadar en geniş teminatlarla korur."
+            }
+          ],
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T10:16:59.689Z",
+          "updated_at": "2024-07-04T10:16:59.689Z",
+          "component_order": 1,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "form_id": 1,
+      "name": "contact info",
+      "title": "{PREVIOUS_SELECTION_NAME} ürünü teklifi almak için formu doldurunuz",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:36:32.127Z",
+      "updated_at": "2024-07-04T08:36:32.127Z",
+      "stage_components": [
+        {
+          "id": 22,
+          "stage_id": 10,
+          "component_type": "number_component",
+          "component_label": "",
+          "component_text": "",
+          "component_data": {},
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "^[1-9]\\d{9}[02468]$",
+          "component_error_message": "Lütfen boş bırakmayınız!",
+          "component_placeholder": "T.C. Kimlik Numarası",
+          "created_at": "2024-07-04T10:23:14.722Z",
+          "updated_at": "2024-07-04T10:24:43.003Z",
+          "component_order": 1,
+          "component_icon": "id-card"
+        },
+        {
+          "id": 23,
+          "stage_id": 10,
+          "component_type": "phone_number_component",
+          "component_label": "",
+          "component_text": ":",
+          "component_data": {},
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "Lütfen boş bırakmayınız!",
+          "component_placeholder": "+90 (___) ___ __ __",
+          "created_at": "2024-07-04T10:25:47.161Z",
+          "updated_at": "2024-07-04T10:27:10.889Z",
+          "component_order": 2,
+          "component_icon": "phone"
+        },
+        {
+          "id": 24,
+          "stage_id": 10,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "GÖNDER",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T10:26:20.403Z",
+          "updated_at": "2024-07-04T10:26:20.403Z",
+          "component_order": 3,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "form_id": 1,
+      "name": "approved",
+      "title": "Teklifinizi en kısa sürede ekip arkadaşlarımız sizi arayacak ulaştıracaktır.",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:37:02.717Z",
+      "updated_at": "2024-07-04T08:37:02.717Z",
+      "stage_components": [
+        {
+          "id": 25,
+          "stage_id": 11,
+          "component_type": "icon_component",
+          "component_label": "",
+          "component_text": "Teklifinizi en kısa sürede ekip arkadaşlarımız sizi arayacak ulaştıracaktır.",
+          "component_data": {},
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T10:29:54.073Z",
+          "updated_at": "2024-07-04T10:29:54.073Z",
+          "component_order": 1,
+          "component_icon": "circle-check"
+        },
+        {
+          "id": 26,
+          "stage_id": 11,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "DEVAM ET",
+          "component_data": {},
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T10:30:15.071Z",
+          "updated_at": "2024-07-04T10:30:15.071Z",
+          "component_order": 2,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "form_id": 1,
+      "name": "nps",
+      "title": "Bizi tanıdıklarınıza tavsiye etme ihtimaliniz nedir?",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:37:19.072Z",
+      "updated_at": "2024-07-04T08:37:19.072Z",
+      "stage_components": [
+        {
+          "id": 27,
+          "stage_id": 12,
+          "component_type": "nps_component",
+          "component_label": "",
+          "component_text": "01-En Düşük | 10- En Yüksek",
+          "component_data": [
+            {
+              "id": 1,
+              "key": 1,
+              "value": 1
+            },
+            {
+              "id": 2,
+              "key": 2,
+              "value": 2
+            },
+            {
+              "id": 3,
+              "key": 3,
+              "value": 3
+            },
+            {
+              "id": 4,
+              "key": 4,
+              "value": 4
+            },
+            {
+              "id": 5,
+              "key": 5,
+              "value": 5
+            },
+            {
+              "id": 6,
+              "key": 6,
+              "value": 6
+            },
+            {
+              "id": 7,
+              "key": 7,
+              "value": 7
+            },
+            {
+              "id": 8,
+              "key": 8,
+              "value": 8
+            },
+            {
+              "id": 9,
+              "key": 9,
+              "value": 9
+            },
+            {
+              "id": 10,
+              "key": 10,
+              "value": 10
+            }
+          ],
+          "component_action": "next_stage",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T10:34:04.654Z",
+          "updated_at": "2024-07-04T10:34:04.654Z",
+          "component_order": 1,
+          "component_icon": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "form_id": 1,
+      "name": "social media",
+      "title": "Lütfen Bizi Takip Edin",
+      "stage_type": "stage",
+      "has_multiple_media": false,
+      "created_at": "2024-07-04T08:37:39.916Z",
+      "updated_at": "2024-07-04T08:37:39.916Z",
+      "stage_components": [
+        {
+          "id": 28,
+          "stage_id": 13,
+          "component_type": "social_media_component",
+          "component_label": "© Ray Sigorta A.Ş. Vienna Insurance Group Üyesidir",
+          "component_text": "",
+          "component_data": [
+            {
+              "id": 1,
+              "icon": "facebook-f",
+              "value": "https://www.facebook.com/raysigorta"
+            },
+            {
+              "id": 2,
+              "icon": "instagram",
+              "value": "https://www.instagram.com/raysigorta"
+            },
+            {
+              "id": 3,
+              "icon": "linkedin-in",
+              "value": "https://www.facebook.com/raysigorta"
+            }
+          ],
+          "component_action": "next_step",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T10:38:10.229Z",
+          "updated_at": "2024-07-04T10:38:32.537Z",
+          "component_order": 1,
+          "component_icon": ""
+        },
+        {
+          "id": 29,
+          "stage_id": 13,
+          "component_type": "button_component",
+          "component_label": "",
+          "component_text": "BİZİ TAKİP EDİN",
+          "component_data": {},
+          "component_action": "no_action",
+          "component_action_stage_id": 1,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-07-04T10:39:51.167Z",
+          "updated_at": "2024-07-04T10:39:51.167Z",
+          "component_order": 2,
+          "component_icon": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "form_id": 1,
+      "name": "Final",
+      "title": "",
+      "stage_type": "final",
+      "has_multiple_media": false,
+      "created_at": "2024-06-13T08:56:12.671Z",
+      "updated_at": "2024-07-04T07:59:44.535Z",
+      "stage_components": [
+        {
+          "id": 1,
+          "stage_id": 1,
+          "component_type": "final_component",
+          "component_label": "",
+          "component_text": "Teşekkürler! Sigorta talebiniz alınmıştır.",
+          "component_data": {},
+          "component_action": "",
+          "component_action_stage_id": 2,
+          "component_action_effect": "slide_top",
+          "component_action_event": 1,
+          "status": "active",
+          "component_regex": "",
+          "component_error_message": "",
+          "component_placeholder": "",
+          "created_at": "2024-06-13T08:58:19.480Z",
+          "updated_at": "2024-07-04T06:29:42.401Z",
+          "component_order": 1,
+          "component_icon": null
+        }
+      ]
+    }
+  ]
 }
